@@ -16,6 +16,7 @@ function negativeNumberChecking(value){
     }
     return value;
 }
+//total cost area
 function totalCost() {
     const firstClassPrice = 150;
     const economyClassPrice = 100;
@@ -40,7 +41,7 @@ function displayBlock(portion, displayProperty){
     }
 }
 
-
+//plus(+) & minus(-)input
 var inputGroups = document.getElementsByClassName("input-number-group"); //for +/- input
 for (let inputNo = 0; inputNo < inputGroups.length; inputNo++) {
     const inputGroup = inputGroups[inputNo];
